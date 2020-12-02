@@ -1,0 +1,330 @@
+body {margin:0;}
+button:focus {outline:0;}
+
+.landingButton a {
+    color: white;
+    text-decoration: none;
+}
+
+.landingButton:hover a {
+    color:#1B1E23;
+    text-decoration: none;
+}
+
+.landingButton:active a {
+    color:darkblue;
+    text-decoration: none;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1B1E23;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar ul {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar #nav_home{
+    float: left;
+    
+}
+
+.navbar #nav_projects{
+    float: right;
+}
+
+.navbar #nav_bio{
+    float: right;
+}
+
+.navbar #nav_resume{
+    float: right;
+    margin-right: 60px;
+}
+
+.navbar li a{
+    display: block;
+    color:  white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
+    
+}
+  
+.navbar a:hover {
+    color: lightskyblue;
+}
+
+.main {
+    padding: 16px;
+    height: 1500px; 
+}
+
+.imagesMain {
+    display: flex;
+    padding: 0;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.imagesMain div {
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.imagesMain h1 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: #1B1E23;
+}
+
+.imagesMain img {
+    height: 300px;
+    width: auto;
+    border:#1B1E23 1px solid;
+}
+
+.imagesMain:hover h1 {
+    color: skyblue 1px solid;
+}
+
+.landingButton {
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color:white;
+    background-color: #1B1E23;
+    margin-top: 30px;
+    border: none;
+}
+
+.landingButton:hover {
+    background-color: lightskyblue;
+    color:#1B1E23;
+}
+
+.footer {
+    background-color: lightgray;
+    font-size: 10;
+    font-weight: 500;
+    color: #1B1E23;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+/* BIO */
+
+.mainBio {
+    display: flex;
+}
+
+.contactPhoto img {
+    height: 550px;
+    width: auto;
+    margin: 80px 0px 0px 70px;
+    margin-top: 20%;
+}
+
+.contactPhoto h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #1B1E23;
+    margin-left: 25px;
+    margin-bottom: 200px;
+}
+
+.contactInfo {
+    margin: 80px 40px 100px 70px;
+    margin-top: 10%;
+}
+
+.contactInfo h1 {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #1B1E23;
+}
+
+.contactInfo h2 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #1B1E23;
+}
+
+.contactInfo p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #1B1E23;
+}
+
+/* PROJECTS */
+
+.dtcProjectHeader {
+    background-color:#e9967a;
+    height: 450px;
+    
+}
+.dtcProjectHeader h1 {
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:#e85B51;
+    margin-left: 70px;
+}
+
+.dtcIMG {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 0px;
+    height: 200px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.projectBlurb p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #1B1E23;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+
+.hsProjectHeader {
+    background-color:#fed8b1;
+    height: 400px;
+}
+
+.hsProjectHeader h1 {
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:orange;
+    margin-left: 70px;
+}
+
+.hsProjects h2 {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:orange;
+    margin-left: 70px;
+}
+
+.hsProjects p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:black;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.logoIMG {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 0px;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.dtcButton {
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color:#e9967a;
+    background-color: #1B1E23;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: none;
+}
+
+.dtcButton:hover {
+    background-color: #e85B51;
+}
+.dtcButton a {
+    color:  #e9967a;
+    text-decoration: none;
+}
+
+.dtcButton:hover a {
+    color:  #1B1E23;
+    text-decoration: none;
+}
+
+.dtcButton:active a {
+    color: red;
+    text-decoration: none;
+}
+
+.hsButton {
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color:#fed8b1;
+    background-color: #1B1E23;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: none;
+}
+
+.hsButton:hover {
+    background-color:orange;
+}
+.hsButton a {
+    color: #e9967a;;
+    text-decoration: none;
+}
+
+.hsButton:hover a {
+    color:#1B1E23;
+    text-decoration: none;
+}
+
+.hsButton:active a {
+    color:white;
+    text-decoration: none;
+}
